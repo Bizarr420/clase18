@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">clase18</string>
+    <string name="hint_palabra">Tu Palabra:</string>
+    <string name="txt_resultado" />
+    <string name="txtres">TextView</string>
+    <string name="btninvertir">INVERTIR</string>
+    <string name="btnMesaje" />
+    <string name="btnmen">MENSAJE</string>
+</resources>
