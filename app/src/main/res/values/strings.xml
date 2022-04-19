@@ -6,4 +6,5 @@
     <string name="btninvertir">INVERTIR</string>
     <string name="btnMesaje" />
     <string name="btnmen">MENSAJE</string>
+    <string name="BTN">Contar Vocales</string>
 </resources>

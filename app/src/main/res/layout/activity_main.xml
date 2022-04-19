@@ -23,11 +23,13 @@
         android:id="@+id/etPalabra"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="84dp"
-        android:layout_marginTop="108dp"
+        android:layout_marginTop="112dp"
         android:ems="10"
         android:hint="@string/hint_palabra"
         android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.258"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -48,5 +50,16 @@
         android:hint="@string/btnmen"
         app:layout_constraintStart_toStartOf="@+id/btnInvertir"
         app:layout_constraintTop_toBottomOf="@+id/btnInvertir" />
+
+    <Button
+        android:id="@+id/btnContVocales"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:hint="@string/BTN"
+        app:layout_constraintEnd_toEndOf="@+id/btnMensaje"
+        app:layout_constraintHorizontal_bias="0.818"
+        app:layout_constraintStart_toStartOf="@+id/btnMensaje"
+        app:layout_constraintTop_toBottomOf="@+id/btnMensaje" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
